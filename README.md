@@ -2,9 +2,10 @@
 
 ## Description
 
-Checkers game By Tomer Revah.
-Build with react.
-Responsive design for all devices.
+- Checkers game By Tomer Revah.
+- Build with react.
+- Responsive design for all devices.
+- Demo: https://tomerre1.github.io/checkers
 
 ## Installation
 - Clone the repo in your terminal by clicking the _green_ clone or download button at the top right and copyin the url
