@@ -2,8 +2,8 @@
 
 ## Description
 
-Checkers game.
-Build with react and data saved in localstorage.
+Checkers game By Tomer Revah.
+Build with react.
 Responsive design for all devices.
 
 ## Installation
