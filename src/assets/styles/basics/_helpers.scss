@@ -1,0 +1,43 @@
+// flex helpers
+.flex {
+    display: flex;
+
+    > *.full {
+        flex: 1;
+    }
+    &.column {
+        flex-direction: column;
+    }
+    &.justify-center {
+        justify-content: center;
+    }
+    &.align-center {
+        align-items: center;
+    }
+    &.space-between {
+        justify-content: space-between;
+    }
+    &.wrap {
+        flex-wrap: wrap;
+    }
+}
+
+// List helpers
+.clean-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+// cleans
+.clean-link {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.clean-btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}

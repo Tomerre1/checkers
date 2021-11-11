@@ -1,0 +1,30 @@
+.app-page {
+    background-color: black;
+    table {
+        tr {
+            &:nth-child(even) {
+                td:nth-child(even) {
+                    background: $clr6;
+                }
+            }
+            &:nth-child(odd) {
+                td:nth-child(odd) {
+                    background: $clr6;
+                }
+            }
+        }
+    }
+    .btns {
+        gap: 10px;
+        button.btn {
+            margin-top: 15px;
+            font-size: rem(16px);
+            background: $clr2;
+            padding: 5px;
+            border-radius: 15%;
+            &:hover {
+                background-color: $clr7;
+            }
+        }
+    }
+}

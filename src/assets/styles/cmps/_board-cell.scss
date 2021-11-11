@@ -1,0 +1,45 @@
+td {
+    background: $clr3;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 1.4em;
+    border-radius: 15%;
+    box-sizing: border-box;
+    @include for-normal-layout {
+        height: 60px;
+        width: 60px;
+    }
+    .black-checker {
+        height: 40px;
+        width: 40px;
+        background: $clr5;
+        border-radius: 100px;
+        margin: auto;
+        margin-top: auto;
+        cursor: pointer;
+        position: relative;
+        @include for-normal-layout {
+            height: 60px;
+            width: 60px;
+        }
+    }
+    .white-checker {
+        height: 40px;
+        width: 40px;
+        background: $clr4;
+        border-radius: 100px;
+        margin: auto;
+        margin-top: auto;
+        cursor: pointer;
+        position: relative;
+        @include for-normal-layout {
+            height: 60px;
+            width: 60px;
+        }
+    }
+    &.selected {
+        outline: 5px solid $clr1;
+        cursor: pointer;
+    }
+}
